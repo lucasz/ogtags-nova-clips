@@ -1,0 +1,9 @@
+{
+    "identifier": "lucasz.OGTAGS",
+    "name": "OG:TAGS",
+    "vendor": "lucasz",
+    "description": "Custom you page on social media sharing. Inspired by https://metatags.io/",
+    "version": "0.1.0",
+    "bugs": "https://github.com/lucasz/ogtags-nova-clips",
+    "categories": ["clips"]
+}

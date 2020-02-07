@@ -1,0 +1,21 @@
+{
+  "clips" : [
+    {
+      "content" : "<!-- Primary Meta Tags -->\n<title>${:title}<\/title>\n<meta name=\"title\" content=\"${:title}\">\n<meta name=\"description\" content=\"${:description}\">\n\n<!-- Open Graph \/ Facebook -->\n<meta property=\"og:type\" content=\"${:website}\">\n<meta property=\"og:url\" content=\"${:url}\">\n<meta property=\"og:title\" content=\"${:title}\">\n<meta property=\"og:description\" content=\"${:description}\">\n<meta property=\"og:image\" content=\"${:image}\">\n\n<!-- Twitter -->\n<meta property=\"twitter:card\" content=\"${:image}\">\n<meta property=\"twitter:url\" content=\"${:url}\">\n<meta property=\"twitter:title\" content=\"${:title}\">\n<meta property=\"twitter:description\" content=\"${:description}\">\n<meta property=\"twitter:image\" content=\"${:image}\">",
+      "name" : "OG:TAGS"
+    },
+    {
+      "name" : "Lukas Szabo - Lucky Project",
+      "children" : [
+        {
+          "content" : "console.log(${:message})",
+          "name" : "Console Log",
+          "scope" : "editor",
+          "shortcut" : "cmd-alt-shift-l",
+          "syntax" : "javascript",
+          "trigger" : "log"
+        }
+      ]
+    }
+  ]
+}
